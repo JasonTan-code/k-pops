@@ -38,7 +38,7 @@ In Step 1, follow PoPS to run MAGMA:
 
 In Step 2, run K-PoPS:
 
-The main difference is that we don't have the 
+The main difference is that we don't have the feature selection step. If you wish to see the top contributor genes, use `--use_explain_mode`, and use `--explain_n_gene` and `--explain_n_contributor` to specify the top genes and top contributors to output. It creates a network in `xx.netwk` with `gene, contributor, score` as the header
 
 ```
 python k-pops.py \
